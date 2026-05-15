@@ -1,6 +1,6 @@
 {
 	"name": "ultravisor-file-stream",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Ultravisor file-streaming primitives: chunked write at offset with sha256-verified atomic finalize, buffered read, directory-tree hashing. Used by ultravisor task types and any beacon that needs to ship multi-GB files across the mesh.",
 	"main": "source/Ultravisor-FileStream.cjs",
 	"scripts": {
