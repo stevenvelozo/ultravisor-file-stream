@@ -1,0 +1,81 @@
+{
+	"Generated": "2026-06-01T19:34:10.335Z",
+	"Mode": "module",
+	"GitHubOrg": "stevenvelozo",
+	"DefaultBranch": "main",
+	"Module": {
+		"Name": "ultravisor-file-stream",
+		"Repo": "ultravisor-file-stream",
+		"Group": "",
+		"Branch": "main",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Introduction",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quick Start",
+						"Path": "quickstart.md"
+					},
+					{
+						"Title": "How It Works",
+						"Path": "architecture.md"
+					}
+				]
+			},
+			{
+				"Title": "API Reference",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "api/README.md"
+					},
+					{
+						"Title": "writeChunk",
+						"Path": "api/write-chunk.md"
+					},
+					{
+						"Title": "readChunk",
+						"Path": "api/read-chunk.md"
+					},
+					{
+						"Title": "sha256OfFile",
+						"Path": "api/sha256-of-file.md"
+					},
+					{
+						"Title": "hashDirectoryTree",
+						"Path": "api/hash-directory-tree.md"
+					},
+					{
+						"Title": "buildChunksForFile",
+						"Path": "api/build-chunks-for-file.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			".nojekyll",
+			"README.md",
+			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
+			"_topbar.md",
+			"_version.json",
+			"api/README.md",
+			"api/build-chunks-for-file.md",
+			"api/hash-directory-tree.md",
+			"api/read-chunk.md",
+			"api/sha256-of-file.md",
+			"api/write-chunk.md",
+			"architecture.md",
+			"index.html",
+			"quickstart.md"
+		]
+	},
+	"Groups": []
+}

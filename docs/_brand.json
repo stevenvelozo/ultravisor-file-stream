@@ -1,0 +1,18 @@
+{
+	"Hash": "ultravisor-file-stream",
+	"Name": "Ultravisor File Stream",
+	"Tagline": "Chunked, sha256-verified file-streaming primitives for the Ultravisor mesh",
+	"Palette": "mix",
+	"Icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\"><rect x=\"2\" y=\"2\" width=\"92\" height=\"92\" rx=\"22\" fill=\"#0fb5a8\"/><g stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.9\"><path d=\"M24 32 H72\"/><path d=\"M24 48 H64\"/><path d=\"M24 64 H52\"/></g></svg>",
+	"IconType": "svg",
+	"Favicon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\"><rect x=\"2\" y=\"2\" width=\"92\" height=\"92\" rx=\"22\" fill=\"#0fb5a8\"/><g stroke=\"#ffffff\" stroke-width=\"8\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.95\"><path d=\"M22 34 H74\"/><path d=\"M22 50 H62\"/><path d=\"M22 66 H50\"/></g></svg>",
+	"FaviconDark": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\"><rect x=\"2\" y=\"2\" width=\"92\" height=\"92\" rx=\"22\" fill=\"#3dd6c9\"/><g stroke=\"#0a1418\" stroke-width=\"8\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.9\"><path d=\"M22 34 H74\"/><path d=\"M22 50 H62\"/><path d=\"M22 66 H50\"/></g></svg>",
+	"Colors": {
+		"Primary": "#0fb5a8",
+		"Secondary": "#f0a92b",
+		"PrimaryLight": "#0fb5a8",
+		"PrimaryDark": "#3dd6c9",
+		"SecondaryLight": "#f0a92b",
+		"SecondaryDark": "#f6c46b"
+	}
+}

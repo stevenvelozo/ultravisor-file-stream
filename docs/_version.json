@@ -1,0 +1,7 @@
+{
+	"Name": "ultravisor-file-stream",
+	"Version": "1.0.0",
+	"Description": "Ultravisor file-streaming primitives: chunked write at offset with sha256-verified atomic finalize, buffered read, directory-tree hashing.",
+	"GeneratedAt": "2026-06-01T00:00:00.000Z",
+	"GitCommit": "3860628"
+}

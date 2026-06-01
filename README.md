@@ -1,5 +1,7 @@
 # ultravisor-file-stream
 
+> **[Read the ultravisor-file-stream Documentation](https://stevenvelozo.github.io/ultravisor-file-stream/)**
+
 File-streaming primitives shared between the ultravisor hub and any
 beacon that needs to ship multi-GB files across the mesh. Zero runtime
 deps - just Node's built-in `fs`, `path`, and `crypto`.
