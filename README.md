@@ -2,7 +2,7 @@
 
 File-streaming primitives shared between the ultravisor hub and any
 beacon that needs to ship multi-GB files across the mesh. Zero runtime
-deps — just Node's built-in `fs`, `path`, and `crypto`.
+deps - just Node's built-in `fs`, `path`, and `crypto`.
 
 ## Install
 
@@ -35,7 +35,7 @@ let chunk = libStream.readChunk({
 // Full-file sha256.
 let hash = libStream.sha256OfFile('/path/to/in.bin');
 
-// Deterministic hash of a directory tree — used for runtime-drift detection.
+// Deterministic hash of a directory tree - used for runtime-drift detection.
 let scan = libStream.hashDirectoryTree('/some/dir', new Set(['node_modules']));
 //   -> { Hash, FileCount, TotalBytes, Files: [{RelativePath, Size, Sha256}] }
 
@@ -49,8 +49,8 @@ let chunks = libStream.buildChunksForFile('/some/big/file.bin', {
 ## Semantics
 
 - **writeChunk** writes to `<TargetPath>.part`; the final chunk (`IsFinal=true`)
-  fsyncs, optionally sha256-verifies, and atomically renames `.part` →
-  `TargetPath`. Idempotent and order-independent — the same
+  fsyncs, optionally sha256-verifies, and atomically renames `.part` ->
+  `TargetPath`. Idempotent and order-independent - the same
   `{TargetPath, Offset, Content}` is safe to re-issue, and chunks may
   arrive in any order.
 - **Sha256 mismatch** deletes the `.part` file (forcing the sender to
@@ -62,4 +62,4 @@ let chunks = libStream.buildChunksForFile('/some/big/file.bin', {
 
 ## License
 
-MIT — Steven Velozo
+MIT - Steven Velozo
